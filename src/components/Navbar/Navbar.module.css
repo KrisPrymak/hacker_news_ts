@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #efefef;
+  align-items: center;
+}
+
+.logo {
+  font-size: 22px;
+  text-decoration: none;
+  color: #165596;
+  font-weight: 900;
+}
+
+.updateStatus {
+  margin-left: 20px;
+  width: 400px;
+  font-size: 18px;
+  color: #165596;
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.statusText {
+  margin-left: 20px;
+}

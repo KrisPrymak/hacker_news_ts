@@ -1,0 +1,31 @@
+.newItem {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 5px;
+    cursor: pointer;
+    justify-content: space-between;
+    color: #000000;
+    text-decoration: none;
+    background-color: #EFEFEF;
+    box-shadow: 1px 0px 5px 1px #165596;
+    border-radius: 10px;
+}
+
+.newItem:hover {
+    background-color: rgba(22, 85, 150, .5);
+}
+
+.newItem:focus {
+    background-color: rgba(22, 85, 150, .8);
+}
+
+.mainInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date {
+    color: #000000;
+}

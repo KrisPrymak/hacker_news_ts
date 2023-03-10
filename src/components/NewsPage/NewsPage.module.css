@@ -1,0 +1,21 @@
+.newsPage {
+  max-width: 1100px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: #efefef;
+  box-shadow: 1px 0px 5px 1px #165596;
+  margin-top: 10px;
+  color: #165596;
+}
+
+.newsPage__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bold {
+  font-weight: 900;
+}
