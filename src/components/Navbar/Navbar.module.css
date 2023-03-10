@@ -13,6 +13,12 @@
   font-weight: 900;
 }
 
+.buttons {
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .updateStatus {
   margin-left: 20px;
   width: 400px;
@@ -25,4 +31,19 @@
 
 .statusText {
   margin-left: 20px;
+}
+
+@media (max-width: 940px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .logo {
+    margin-bottom: 20px;
+  }
+  button {
+    margin-bottom: 10px;
+  }
+  .updateStatus {
+    justify-content: center;
+  }
 }

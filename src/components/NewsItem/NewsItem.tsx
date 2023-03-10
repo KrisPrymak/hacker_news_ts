@@ -7,7 +7,7 @@ const NewsItem = ({newItem, index}: { newItem: newItemType, index: number }): JS
 
     return (
         <NavLink className={style.newItem} to={`/${newItem.id}`}>
-           <div>
+           <div className={style.newItem__container}>
            <h2>{index}. {newItem.title}</h2>
             <div>
             <div className={style.mainInfo}>

@@ -9,8 +9,10 @@ const Navbar = ({ status, handleClick, text, title, updateComments }: { status: 
   return (
     <nav className={style.navbar}>
       <NavLink className={style.logo} to={`/`}>Hacker News</NavLink>
+      <div className={style.buttons}>
       <Button disabled={title === 'news' && status === 'pending'} variant='contained' onClick={handleClick}>{text}</Button>
       {title === 'comments' && <Button disabled={status === 'pending'} variant='contained' onClick={updateComments}>Update comments</Button>}
+      </div>
       {status === 'pending' ?
         <p className={style.updateStatus}><CircularProgress /> <span className={style.statusText}>Looking for {title} for you...</span> </p>
         : <p className={style.updateStatus}><DoneIcon color='primary' /> <span className={style.statusText}>{title} are updated</span></p>}

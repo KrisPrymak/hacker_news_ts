@@ -13,6 +13,10 @@
     border-radius: 10px;
 }
 
+.newItem__container {
+    display: contents;
+}
+
 .newItem:hover {
     background-color: rgba(22, 85, 150, .5);
 }
