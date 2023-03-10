@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hacker_news_ts/static/css/main.f20a092e.css",
+    "main.js": "/hacker_news_ts/static/js/main.59c49cf2.js",
+    "index.html": "/hacker_news_ts/index.html",
+    "main.f20a092e.css.map": "/hacker_news_ts/static/css/main.f20a092e.css.map",
+    "main.59c49cf2.js.map": "/hacker_news_ts/static/js/main.59c49cf2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f20a092e.css",
+    "static/js/main.59c49cf2.js"
+  ]
+}
